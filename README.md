@@ -1,4 +1,4 @@
-# 🚀 DOM Explorer - Task Manager
+#  DOM Explorer - Task Manager
 
 A fully interactive Task Manager Application built using **HTML**, **CSS**, and **Vanilla JavaScript**.
 
@@ -6,7 +6,7 @@ This project demonstrates real-world usage of DOM APIs, Event Handling, Event De
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 Deploy using:
 
@@ -16,7 +16,7 @@ Deploy using:
 
 ---
 
-# 📋 Features
+#  Features
 
 ## Task Management
 
@@ -38,7 +38,7 @@ Deploy using:
 
 ---
 
-# 🧠 DOM APIs Used
+#  DOM APIs Used
 
 ## Element Creation
 
@@ -78,7 +78,7 @@ classList.toggle()
 
 ---
 
-# 🎯 Event Handling
+#  Event Handling
 
 Event listeners are used for:
 
@@ -96,7 +96,7 @@ Examples:
 
 ---
 
-# 🎯 Event Delegation
+#  Event Delegation
 
 Instead of attaching listeners to every task card:
 
@@ -116,7 +116,7 @@ Benefits:
 
 ---
 
-# 🌊 Event Bubbling
+#  Event Bubbling
 
 Event Bubbling occurs when an event starts at the target element and travels upward through its ancestors.
 
@@ -140,7 +140,7 @@ Grandparent Bubble
 
 ---
 
-# 🌊 Event Capturing
+#  Event Capturing
 
 Event Capturing occurs before bubbling.
 
@@ -166,7 +166,7 @@ Child Capture
 
 ---
 
-# 🔥 Attributes vs Properties
+#  Attributes vs Properties
 
 ## Attribute
 
@@ -236,7 +236,7 @@ Hello
 
 ---
 
-# 🌳 Browser Rendering Pipeline
+#  Browser Rendering Pipeline
 
 ## Step 1: HTML
 
@@ -321,7 +321,7 @@ Pixels are drawn on screen.
 
 ---
 
-# 📦 Data Attributes Used
+#  Data Attributes Used
 
 Each task card stores:
 
@@ -351,7 +351,7 @@ element.dataset.category
 
 ---
 
-# 💾 Local Storage
+#  Local Storage
 
 Tasks persist after page refresh.
 
@@ -374,7 +374,7 @@ JSON.parse(
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 task-manager/
@@ -387,7 +387,7 @@ task-manager/
 
 ---
 
-# 🚀 Expected Learning Outcomes
+#  Expected Learning Outcomes
 
 By completing this project, you will understand:
 
@@ -406,7 +406,7 @@ By completing this project, you will understand:
 
 ---
 
-# 👨‍💻 Technologies Used
+#  Technologies Used
 
 - HTML5
 - CSS3
