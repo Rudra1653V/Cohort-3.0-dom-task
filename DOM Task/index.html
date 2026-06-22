@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Explorer - Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>🚀 DOM Explorer Task Manager</h1>
+
+        <button id="themeToggle" class="theme-btn">
+            🌙 Dark Mode
+        </button>
+    </header>
+
+    <section class="card">
+        <h2>📋 Create Task</h2>
+
+        <form id="taskForm">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter Task Title"
+            >
+
+            <select id="categorySelect">
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Health">Health</option>
+            </select>
+
+            <button type="submit">
+                Add Task
+            </button>
+
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>🧠 Attributes vs Properties</h2>
+
+        <p>
+            Open Developer Console and click the button below.
+        </p>
+
+        <br>
+
+        <button id="attributeDemoBtn">
+            Show Difference
+        </button>
+
+        <div class="info-box">
+            <p>Compare:</p>
+
+            <code>input.value</code>
+
+            <br><br>
+
+            <code>input.getAttribute("value")</code>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>⭐ Bonus Features</h2>
+
+        <div class="controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Task..."
+            >
+
+            <select id="filterCategory">
+                <option value="All">All Categories</option>
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Health">Health</option>
+            </select>
+
+            <button id="clearAllBtn">
+                Clear All Tasks
+            </button>
+
+        </div>
+
+        <div class="stats">
+            <span>Total: <strong id="totalCount">0</strong></span>
+            <span>Completed: <strong id="completedCount">0</strong></span>
+            <span>Pending: <strong id="pendingCount">0</strong></span>
+        </div>
+
+    </section>
+
+    <section class="card">
+        <h2>📝 Task List</h2>
+
+        <div id="taskContainer">
+
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>🌊 Event Propagation Demo</h2>
+
+        <p>
+            Open Console and click the Child Button.
+        </p>
+
+        <br>
+
+        <div id="grandparent" class="propagation grandparent">
+
+            Grandparent
+
+            <div id="parent" class="propagation parent">
+
+                Parent
+
+                <button id="childBtn" class="propagation child">
+                    Child Button
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+        <h2>🧪 DOM Methods Demo</h2>
+
+        <p>
+            Demonstrates before(), after(), and replaceWith()
+        </p>
+
+        <br>
+
+        <div id="demoBox">
+            Original Element
+        </div>
+
+        <br>
+
+        <button id="demoMethodsBtn">
+            Run DOM Methods Demo
+        </button>
+    </section>
+
+    <section class="card">
+        <h2>🖥 Browser Rendering Pipeline</h2>
+
+        <div class="pipeline">
+
+            <div class="step">HTML</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">Parsing</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">Tokenization</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">DOM Tree</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">CSS</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">CSSOM Tree</div>
+            <div class="arrow">↓</div>
+
+            <div class="step">
+                DOM Tree + CSSOM Tree
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="step final">
+                Render Tree
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="step">
+                Layout
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="step">
+                Paint
+            </div>
+
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>📚 Concepts Used</h2>
+
+        <ul>
+            <li>createElement()</li>
+            <li>createTextNode()</li>
+            <li>append()</li>
+            <li>prepend()</li>
+            <li>before()</li>
+            <li>after()</li>
+            <li>replaceWith()</li>
+            <li>remove()</li>
+            <li>setAttribute()</li>
+            <li>getAttribute()</li>
+            <li>removeAttribute()</li>
+            <li>hasAttribute()</li>
+            <li>dataset</li>
+            <li>classList</li>
+            <li>Event Delegation</li>
+            <li>Event Bubbling</li>
+            <li>Event Capturing</li>
+            <li>DocumentFragment</li>
+            <li>Local Storage</li>
+        </ul>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
